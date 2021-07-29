@@ -10,7 +10,7 @@ from utils.Config import Config
 Config = Config()
 
 
-@Client.on_message(filters.command(['info', 'info@vcplayerbot']) & ~filters.edited & ~filters.bot)
+@Client.on_message(filters.command(['info', 'info@TeslaMusicRoBot']) & ~filters.edited & ~filters.bot)
 @database_check
 @chat_allowed
 @admin_check
@@ -40,7 +40,7 @@ async def info(client, message, current_client):
         logException(f"Error in info: {ex}", True)
 
 
-@Client.on_message(filters.command(['start', 'start@vcplayerbot', 'help', 'help@vcplayerbot']) & ~filters.edited)
+@Client.on_message(filters.command(['start', 'start@TeslaMusicRoBot', 'help', 'help@TeslaMusicRoBot']) & ~filters.edited)
 async def help(client, message, current_client=None):
     try:
         chat_id = message.chat.id
