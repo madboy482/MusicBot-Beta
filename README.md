@@ -15,7 +15,7 @@ Official Bot : [TeslaMusicRoBot](https://telegram.me/TeslaMusicRoBot)   |   Musi
 5. [ Optional ] Mongo DB [ Create free account from mongo website and get your connection string. ] 
 
 # Deploying To Heroku
-1. Get your telegram API ID and API HASH from my.telegram.org and the BOT TOKEN from @botfather.
+1. Get your telegram API ID and API HASH from my.telegram.org and the BOT TOKEN from @BotFather.
 2. Generate your telegram session string using the `Run on Repl` button below (Click on run after opening the url below) or use the `generateSession.py` file.
 
 - [![GenerateString](https://img.shields.io/badge/repl.it-GenerateString-redblack)](https://replit.com/@madboy482/Pyrogram-Session)
