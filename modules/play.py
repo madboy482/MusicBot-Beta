@@ -32,7 +32,7 @@ DownloaderService = Downloader()
 Config = Config()
 
 
-@Client.on_message(filters.command(['play', 'play@vcplayerbot']) & ~filters.edited & ~filters.bot)
+@Client.on_message(filters.command(['play', 'play@TeslaMusicRoBot']) & ~filters.edited & ~filters.bot)
 @chat_allowed
 @admin_mode_check
 async def play(client, message, current_client):
@@ -117,7 +117,7 @@ async def play(client, message, current_client):
                         footer = f"{Config.get('PLAYBACK_FOOTER')}".replace(
                             '\\n', '\n')
                     footer_val = (
-                        '\n'+footer) if footer is not None else '\nFor any issues contact @voicechatsupport'
+                        '\n'+footer) if footer is not None else '\nFor any issues contact @TeslaRobo_Chat.'
 
                     # if curernt call is there , then add it to queue
                     if pytgcalls_instance.active is True:
@@ -148,7 +148,7 @@ async def play(client, message, current_client):
                             input_peer = await callmanager.user_app.resolve_peer(message.chat.id)
                             chat = await callmanager.user_app.send(GetFullChannel(channel=input_peer))
                             title_change = EditGroupCallTitle(call=chat.full_chat.call,
-                                                              title="Song Player | By SkTechHub")
+                                                              title="Song Player | By TeslaRobo")
                             await callmanager.user_app.send(title_change)
                         except Exception as ex:
                             logWarning(
