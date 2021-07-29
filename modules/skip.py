@@ -7,7 +7,7 @@ from utils.Logger import *
 from helpers.fromatMessages import getMessage
 
 
-@Client.on_message(filters.command(['skip', 'skip@vcplayerbot']) & ~filters.edited & ~filters.bot)
+@Client.on_message(filters.command(['skip', 'skip@TeslaMusicRoBot']) & ~filters.edited & ~filters.bot)
 @chat_allowed
 @admin_mode_check
 async def skip(client, message, current_client):
