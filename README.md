@@ -70,13 +70,7 @@ Command | Description
 /listadmins | Lists all the bot admins.
 /adminmode [on,off] | Turn on/off the admin mode.
 
-<p align="center">
-  <img width="500" height="300" src="https://i.postimg.cc/qRtC4bD2/photo-2021-05-28-00-15-11.jpg">
-</p>
-
 # Developer
-[Shubham Kumar](https://github.com/madboy482)
+[madboy482](https://github.com/madboy482)
 
 For any issues/questions please contact [Here](https://telegram.me/TeslaRobo_Chat)
-
-Pull Requests are more than welcome.
