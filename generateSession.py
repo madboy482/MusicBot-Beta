@@ -16,6 +16,6 @@ try:
         session = client.export_session_string()
         print("\nDone your session string will be saved in your saved messages! Don't Share it with anyone else.")
         client.send_message(
-            "me", f"Your session String :\n\n`{session}`\n\nBy @vcplayerbot | [SkTechHub Product](https://t.me/sktechhub)")
+            "me", f"Your session String :\n\n`{session}`\n\nBy @TeslaMusicRoBot | [TeslaRobo](https://t.me/TeslaRobo_Support)")
 except Exception as ex:
     print(f"\nSome error occurred : {ex}")
